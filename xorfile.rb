@@ -68,10 +68,10 @@ ARGV.each { |file|
 
 #input = ')C-E$G*I/K>M`O>Q=SyU?W(Yt[3],_\aabc'
 
-outfile = File.open("#{file}.#{options[:outext]}",'w')
-outfile.write(xorstring(input, "#{options[:key]}", options[:increment]))
+#outfile = File.open("#{file}.#{options[:outext]}",'w')
+#outfile.write(xorstring(input, "#{options[:key]}", options[:increment]))
     
-puts "Input: #{input}"
-puts "Output: " + xorstring(input, options[:key], options[:increment])
+#puts "Input: #{input}"
+#puts "Output: " + xorstring(input, options[:key], options[:increment])
 
 puts "- DONE"
