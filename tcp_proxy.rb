@@ -1,8 +1,8 @@
 require "socket"
 
-remote_host = "ec2-23-22-197-161.compute-1.amazonaws.com"
-remote_port = 6675
-listen_port = 5000
+remote_host = "example.com"
+remote_port = 80
+listen_port = 8080
 max_threads = 5
 threads = []
 
